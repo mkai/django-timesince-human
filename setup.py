@@ -8,6 +8,6 @@ setup(name='django-timesince-human',
       author_email='mkai@sensun.org',
       license='GPL',
       packages=['timesince_human'],
-      zip_safe=true,
+      zip_safe=True,
       install_requires=['django'],
 )
