@@ -1,0 +1,38 @@
+#: templatetags/timesince_human.py:15
+#, fuzzy, python-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] "vor einem Jahr"
+msgstr[1] "vor %d Jahren"
+
+#: templatetags/timesince_human.py:19
+#, fuzzy, python-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "vor einer Woche"
+msgstr[1] "vor %d Wochen"
+
+#: templatetags/timesince_human.py:22
+#, fuzzy, python-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "gestern"
+msgstr[1] "vor %d Tagen"
+
+#: templatetags/timesince_human.py:26
+#, fuzzy, python-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "vor einer Stunde"
+msgstr[1] "vor %d Stunden"
+
+#: templatetags/timesince_human.py:30
+#, fuzzy, python-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "vor einer Minute"
+msgstr[1] "vor %d Minuten"
+
+#: templatetags/timesince_human.py:32
+msgid "just now"
+msgstr "gerade eben"

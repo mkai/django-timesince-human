@@ -1,5 +1,5 @@
 # Humanized and localized timesince template filter
-# from: http://djangosnippets.org/snippets/2275/
+# originally from: http://djangosnippets.org/snippets/2275/
 from django import template
 from django.utils.translation import ugettext, ungettext
 import datetime
@@ -29,4 +29,4 @@ def humanize_timesince(date):
     if (num_minutes > 0):
         return ungettext(u"%d minute ago", u"%d minutes ago", num_minutes) % num_minutes
 
-    return ugettext(u"just a few seconds ago")
+    return ugettext(u"just now")

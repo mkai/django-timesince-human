@@ -1,4 +1,6 @@
 # Django settings for timesince_human project.
+import os
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -147,3 +149,7 @@ LOGGING = {
         },
     }
 }
+
+LOCALE_PATHS = [
+    os.path.join(PROJECT_ROOT, 'locale/'),
+]
