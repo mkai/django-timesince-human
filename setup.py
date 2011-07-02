@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='django-timesince-human',
-      version='0.1',
+      version='0.11',
       description="Humanized and localized timesince template filter for Django",
       long_description="",
       author='Markus Kaiserswerth',
