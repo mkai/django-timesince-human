@@ -1,3 +1,5 @@
+.DS_Store
 *.pyc
 *.tmproj
-.DS_Store
+*.sublime-project
+*.sublime-workspace
