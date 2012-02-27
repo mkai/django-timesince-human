@@ -21,6 +21,11 @@ def humanize_timesince(date):  # TODO: let user specify format strings
         return ungettext(u"%d year ago", u"%d years ago", num_years) % (
             num_years,)
 
+    num_months = delta.days / 30
+    if (num_months > 0):
+        return ungettext(u"%d month ago", u"%d months ago", 
+            num_months) % num_months
+
     num_weeks = delta.days / 7
     if (num_weeks > 0):  # TODO: "last week" if num_weeks == 1
         return ungettext(u"%d week ago", u"%d weeks ago", 
