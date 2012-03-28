@@ -1,6 +1,6 @@
 from django import template
 from django.utils.translation import ugettext, ungettext
-import datetime
+from django.utils.timezone import now
 
 register = template.Library()
 
@@ -14,7 +14,7 @@ def humanize_timesince(date):  # TODO: let user specify format strings
     Originally from: http://djangosnippets.org/snippets/2275/
     
     """
-    delta = datetime.datetime.now() - date
+    delta = now() - date
 
     num_years = delta.days / 365
     if (num_years > 0):
