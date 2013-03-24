@@ -19,9 +19,8 @@ def humanize_timesince(date):  # TODO: let user specify format strings
     if isinstance(date, (str, unicode)):
         date = date_parser.parse(date)
         # if the date has no timezone, assume UTC
-        if date.tzinfo == None:
+        if date.tzinfo is None:
             date = date.replace(tzinfo=tz.tzutc())
-
     delta = timezone.now() - date
 
     num_years = delta.days / 365
